@@ -54,16 +54,14 @@ const skillsSection = {
   //subTitle: "CURIOSITY FILLED BACK END DEVELOPER WHO WANTS TO EXPLORE EVERYTHING TECH RELATED",
   skills: [
     emoji(
-        "⚡ Data Structures : In particular, how to apply them in problem solving."
+      "⚡ Data Structures : In particular, how to apply them in problem solving."
+    ),
+    emoji("⚡ Debugging : Both as a developer and a teammate."),
+    emoji(
+      "⚡ Communication : Solving hard problems requires you to ask silly questions (& sometimes hard ones)."
     ),
     emoji(
-        "⚡ Debugging : Both as a developer and a teammate."
-    ),
-    emoji(
-        "⚡ Communication : Solving hard problems requires you to ask silly questions (& sometimes hard ones)."
-    ),
-    emoji(
-        "⚡ Customer First Mindset : Every small details taken care of with proactive, and results-oriented mindset."
+      "⚡ Customer First Mindset : Every small details taken care of with proactive, and results-oriented mindset."
     )
   ],
 
@@ -83,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "git",
       fontAwesomeClassname: "fab fa-git"
     },
-   /* {
+    /* {
       skillName: "golang",
       fontAwesomeClassname: "fab fa-golang"
     },*/
@@ -125,14 +123,16 @@ const educationInfo = {
       subHeader: "Class XII",
       duration: "April 2012 - March 2014",
       desc: "Consistently ranked top 10% in the program.",
-      descBullets: ["PSA Scholar (Reasoning & Aptitude) - Among top 3000 recipients across all CBSE Schools."]
+      descBullets: [
+        "PSA Scholar (Reasoning & Aptitude) - Among top 3000 recipients across all CBSE Schools."
+      ]
     },
     {
       schoolName: "Gita Niketan Awasiya Vidyalya, Kurukshetra",
       logo: require("./assets/images/mpps.png"),
       subHeader: "Class X",
       duration: "April 2012 - March 2014",
-      desc: "National Level Finalist in Heritage India Quiz",
+      desc: "National Level Finalist in Heritage India Quiz"
     }
   ]
 };
@@ -176,9 +176,9 @@ const workExperiences = {
         "Built a platform that quickly extracts important information from over 10 million uploaded documents, saving time and effort equivalent to 5-7 days of work in just 1 minute.",
         "Enabled users to create and customize machine learning models for data analysis and extraction.",
         "Mentored junior developers in creating a tool that monitors microservices for better performance and reliability."
-        ]
+      ]
     },
-   /* {
+    /* {
       role: "Software Engineer",
       company: "SirionLabs",
       companylogo: require("./assets/images/sirion.jpg"),
@@ -204,9 +204,9 @@ const workExperiences = {
       companylogo: require("./assets/images/sapient.jpg"),
       date: "Jan 2019 – Jun 2019",
       descBullets: [
-          "Designed a POC tool for staffing that delivers key employee supply pool data to enhance resource allocation and management.",
-          "Received Excellence in Leadership Award among Interns for showing outstanding initiative, communication, and problem-solving skills."
-          ]
+        "Designed a POC tool for staffing that delivers key employee supply pool data to enhance resource allocation and management.",
+        "Received Excellence in Leadership Award among Interns for showing outstanding initiative, communication, and problem-solving skills."
+      ]
     }
   ]
 };
@@ -317,8 +317,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "I love to write about things that fascinates me.",
+  subtitle: "I love to write about things that fascinates me.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -330,8 +329,7 @@ const blogSection = {
     {
       url: "https://medium.com/better-programming/recovering-from-common-git-errors-eccda7ec6180",
       title: "Recovering From Common Git Errors",
-      description:
-        "To get back to your development faster"
+      description: "To get back to your development faster"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -364,8 +362,8 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-      "https://podcasters.spotify.com/pod/show/straight-reads/embed/episodes/Ep-4---Rowlings-Harry-Potter-and-the-Philosophers-Stone--Apples-WWDC21-e134k9t/a-a5uicl3",
-      "https://podcasters.spotify.com/pod/show/straight-reads/embed/episodes/Ep-3---Cliff-Kuangs-and-Robert-Fabricants-User-Friendly--Fiction-vs-Non-Fiction--Will-Shorts-take-over-YouTube-e119846/a-a5kkodf",
+    "https://podcasters.spotify.com/pod/show/straight-reads/embed/episodes/Ep-4---Rowlings-Harry-Potter-and-the-Philosophers-Stone--Apples-WWDC21-e134k9t/a-a5uicl3",
+    "https://podcasters.spotify.com/pod/show/straight-reads/embed/episodes/Ep-3---Cliff-Kuangs-and-Robert-Fabricants-User-Friendly--Fiction-vs-Non-Fiction--Will-Shorts-take-over-YouTube-e119846/a-a5kkodf"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -374,7 +372,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+91-9416026957",
+  number: "+91-9416026957",
   email_address: "hiteshwar.mehla@gmail.com"
 };
 

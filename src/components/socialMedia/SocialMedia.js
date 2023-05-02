@@ -15,8 +15,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"/>
-          <span/>
+          <i className="fab fa-github" />
+          <span />
         </a>
       ) : null}
 
@@ -27,8 +27,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"/>
-          <span/>
+          <i className="fab fa-linkedin-in" />
+          <span />
         </a>
       ) : null}
 
@@ -39,8 +39,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"/>
-          <span/>
+          <i className="fas fa-envelope" />
+          <span />
         </a>
       ) : null}
 
@@ -51,8 +51,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"/>
-          <span/>
+          <i className="fab fa-twitter" />
+          <span />
         </a>
       ) : null}
 
@@ -63,21 +63,21 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"/>
-          <span/>
+          <i className="fab fa-medium" />
+          <span />
         </a>
       ) : null}
 
       {socialMediaLinks.leetcode ? (
-          <a
-              href={socialMediaLinks.leetcode}
-              className="icon-button leetcode"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            <i className="fab fa-free-code-camp"/>
-            <span/>
-          </a>
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-free-code-camp" />
+          <span />
+        </a>
       ) : null}
     </div>
   );
