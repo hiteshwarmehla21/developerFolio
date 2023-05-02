@@ -116,6 +116,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.leetcode ? (
+          <a
+              href={socialMediaLinks.leetcode}
+              className="icon-button leetcode"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <i className="fab fa-free-code-camp"></i>
+            <span></span>
+          </a>
+      ) : null}
+
       {socialMediaLinks.kaggle ? (
         <a
           href={socialMediaLinks.kaggle}
