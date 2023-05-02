@@ -43,7 +43,8 @@ const socialMediaLinks = {
   leetcode: "https://leetcode.com/hiteshwarmehla21/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
+  twitter: "https://twitter.com/hiteshwarmehla?s=09"
 };
 
 // Skills Section
@@ -231,7 +232,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -243,7 +244,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://nextu.se/"
         }
       ]
     }

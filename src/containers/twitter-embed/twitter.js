@@ -7,7 +7,7 @@ import StyleContext from '../../contexts/StyleContext';
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
-    "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+    "<div class='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
 function timeOut() {
   setTimeout(function () {
@@ -54,7 +54,10 @@ export default function Twitter() {
                 key: isDark ? '1' : '2',
                 autoHeight: false,
               }}
-              onLoad={timeOut()}
+              onLoad={() => {
+                  timeOut();
+                  return undefined;
+              }}
           />
         </div>
       </div>
